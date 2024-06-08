@@ -8,7 +8,7 @@ Rota:``` /sentimento/<frase> ```
 
 
 Descrição: Esta rota permite analisar o sentimento de uma determinada frase. 
-Utiliza a biblioteca TextBlob para traduzir a frase para o inglês (caso necessário) e calcular a polaridade do sentimento. 
+Utiliza a biblioteca TextBlob para calcular a polaridade do sentimento.
 
 Ex: GET /sentimento/Odio
 
